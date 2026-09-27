@@ -1,22 +1,11 @@
-# Bay Glow — Whole-Person Skin Care
+# Bay Glow Website V2
 
-Version 1 of the Bay Glow website for `bayglow.skin`.
+Built exclusively from the user-approved Bay Glow style and brand guide.
 
-## Brand
-**Bay Glow**  
-**Whole-Person Skin Care**  
-*An Integrative Approach to Skin Health*
+## Brand source of truth
+- Primary logo artwork: extracted directly from the supplied brand guide, not redrawn
+- Palette: #1F4D3A, #6A7D68, #F2E6D5, #C7A46A, #B58F7E, #1C1C1C
+- Typography: Cormorant Garamond; Lato / Montserrat
+- Positioning: Whole-Person Skin Care / An Integrative Approach to Skin Health
 
-Rooted in tradition. Informed by modern skin science. Healthy skin begins within.
-
-## GitHub Pages
-Upload `index.html` and `style.css` to the root of the `bayglow-skin` repository.
-
-The public email address and Instagram handle have intentionally not been invented. Add them when confirmed.
-
-## Domain
-After the GitHub Pages preview is approved, connect `bayglow.skin` as the repository's custom domain.
-
-
-## V1.1 logo correction
-Replaced the generic semicircle hero mark with a rising gold horizon/arc and star treatment based on the Bay Glow business-card identity. Copy otherwise remains unchanged for the next editorial pass.
+Upload `index.html`, `style.css`, and the `assets` folder to the root of the `bayglow-skin` GitHub repository.

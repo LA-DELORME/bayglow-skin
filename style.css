@@ -1,69 +1,16 @@
-:root{
- --navy:#071f32; --navy2:#0b2d45; --ivory:#f6f0e5; --paper:#fbf8f1;
- --sand:#e7dcc8; --gold:#b69a62; --sea:#a9c7bf; --ink:#173044; --muted:#65727a;
-}
-*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif}
-a{color:inherit;text-decoration:none}.site-header{height:72px;padding:0 6vw;display:flex;align-items:center;justify-content:space-between;background:rgba(246,240,229,.95);position:sticky;top:0;z-index:10;border-bottom:1px solid rgba(23,48,68,.1)}
-.brand{font-family:"Libre Caslon Display",serif;letter-spacing:.12em}.sun{color:var(--gold);margin-right:8px}.site-header nav{display:flex;gap:28px;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
-.hero{min-height:calc(100vh - 72px);background:var(--ivory);position:relative;overflow:hidden;display:grid;place-items:center;text-align:center;padding:80px 7vw}
-.hero-copy{position:relative;z-index:2}
-.eyebrow,.kicker{font-size:11px;letter-spacing:.24em;font-weight:600;color:var(--gold)}h1,h2,h3{font-family:"Libre Caslon Display",serif;font-weight:400}
-h1{font-size:clamp(58px,9vw,116px);line-height:.86;margin:10px 0 26px;color:var(--navy);letter-spacing:-.035em}
-.subhead{font-family:"Libre Caslon Display",serif;font-size:clamp(20px,2.4vw,31px);margin:0 0 28px}.manifesto{font-size:13px;line-height:1.8;letter-spacing:.04em;color:#53636c}
-.button{display:inline-block;background:var(--navy);color:var(--ivory);padding:15px 23px;margin-top:22px;font-size:12px;letter-spacing:.1em;text-transform:uppercase}
-.contours:before,.contours:after{content:"";position:absolute;border:1px solid rgba(182,154,98,.2);border-radius:50%;width:600px;height:270px;transform:rotate(-12deg)}
-.contours:before{left:-280px;top:12%}.contours:after{right:-260px;bottom:15%;width:720px}
-.horizon{position:absolute;bottom:0;left:0;width:100%;height:90px;background:linear-gradient(180deg,transparent,var(--sand));opacity:.55}
-.section{padding:110px 8vw}.intro{max-width:1100px;margin:auto;text-align:center}.intro h2,.section-heading h2,.about h2{font-size:clamp(42px,6vw,76px);line-height:.98;margin:18px 0 34px;color:var(--navy)}
-.lead{max-width:760px;margin:auto;font-size:18px;line-height:1.8;color:#53636c}
-.triad{display:grid;grid-template-columns:repeat(3,1fr);background:var(--navy);color:var(--ivory);padding:80px 8vw;gap:0}
-.triad article{padding:20px 7%;border-right:1px solid rgba(255,255,255,.15)}.triad article:last-child{border:0}.triad span{color:var(--gold);font-size:11px;letter-spacing:.2em}.triad h3{font-size:42px;margin:14px 0}.triad p{line-height:1.7;color:#cad1d3;font-size:14px}
-.care{background:var(--paper)}.section-heading{max-width:780px}.care-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:55px}
-.care-grid article{background:var(--ivory);padding:38px;min-height:300px;border:1px solid rgba(23,48,68,.08)}.care-grid h3{font-size:27px;line-height:1.05;margin:24px 0 20px;color:var(--navy)}.care-grid p{line-height:1.95;font-size:14px;color:#53636c}.symbol{font-size:25px;color:var(--gold)}
-.note{max-width:850px;font-size:11px;line-height:1.7;color:var(--muted);margin-top:28px}
-.quote-band{background:var(--sea);padding:85px 8vw;text-align:center;color:var(--navy)}.quote-band p{font-family:"Libre Caslon Display",serif;font-size:clamp(38px,5vw,68px);line-height:1.05;margin:0}.quote-band em{font-weight:400}
-.about{display:grid;grid-template-columns:1fr 1fr;gap:10vw;align-items:start}.about-copy{padding-top:52px;font-size:16px;line-height:1.85;color:#53636c}.credential{border-left:2px solid var(--gold);padding-left:18px;margin-top:28px}
-.connect{background:var(--navy);color:var(--ivory);padding:110px 8vw;position:relative}.connect h2{font-size:clamp(44px,6vw,78px);line-height:.98;margin:20px 0}.connect p:not(.kicker){color:#c8d0d3}.button.light{background:var(--ivory);color:var(--navy);margin-right:25px}.text-link{font-size:13px;border-bottom:1px solid var(--gold);padding-bottom:4px}
-footer{background:#041725;color:#aeb9be;padding:35px 8vw;display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;font-size:11px;letter-spacing:.06em}footer strong{font-family:"Libre Caslon Display",serif;color:var(--ivory);font-size:18px}footer div:nth-child(2){text-align:center}footer div:last-child{text-align:right}
-@media(max-width:850px){.site-header nav{display:none}.triad,.care-grid,.about,footer{grid-template-columns:1fr}.triad article{border-right:0;border-bottom:1px solid rgba(255,255,255,.15)}.care-grid{gap:12px}.section{padding:80px 7vw}.about-copy{padding-top:0}footer div:nth-child(2),footer div:last-child{text-align:left}.hero{min-height:820px}}
 
-
-/* Bay Glow business-card-inspired logo art */
-.bayglow-mark{
-  width:min(420px,78vw);
-  margin:0 auto 34px;
-  text-align:center;
-}
-.rising-arc{
-  width:210px;
-  height:78px;
-  margin:0 auto 13px;
-  position:relative;
-  overflow:hidden;
-}
-.rising-arc::before{
-  content:"";
-  position:absolute;
-  width:285px;
-  height:140px;
-  left:-38px;
-  top:25px;
-  border:2px solid var(--gold);
-  border-radius:50% 50% 0 0;
-}
-.brand-star{
-  position:absolute;
-  right:15px;
-  top:4px;
-  color:var(--gold);
-  font-size:24px;
-  line-height:1;
-  z-index:2;
-}
-.mark-word{
-  font-family:"Libre Caslon Display",serif;
-  font-size:20px;
-  letter-spacing:.28em;
-  color:var(--navy);
-  padding-left:.28em;
-}
+:root{--forest:#1F4D3A;--sage:#6A7D68;--cream:#F2E6D5;--gold:#C7A46A;--rose:#B58F7E;--black:#1C1C1C;--paper:#faf4ea}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--black);background:var(--paper);font-family:Lato,sans-serif}
+a{text-decoration:none;color:inherit}header{height:92px;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;background:rgba(250,244,234,.97);border-bottom:1px solid rgba(199,164,106,.45);position:sticky;top:0;z-index:10}
+.header-logo img{width:190px;display:block;mix-blend-mode:multiply}nav{display:flex;gap:30px;font:500 10px Montserrat,sans-serif;letter-spacing:.12em;text-transform:uppercase}
+.hero{min-height:720px;display:grid;place-items:center;text-align:center;padding:80px 20px;background:radial-gradient(circle at 50% 20%,#fffaf2 0,var(--paper) 42%,var(--cream) 100%)}
+.hero-logo{width:min(620px,90vw);mix-blend-mode:multiply}.rule{width:180px;height:25px;margin:24px auto 10px;display:flex;align-items:center;color:var(--gold)}.rule:before,.rule:after{content:"";height:1px;background:var(--gold);flex:1}.rule span{padding:0 12px}.brand-line{font:500 10px Montserrat,sans-serif;letter-spacing:.18em;margin:9px 0}.brand-line.strong{color:var(--forest)}
+.btn{display:inline-block;margin-top:30px;background:var(--forest);color:var(--cream);padding:15px 23px;font:500 10px Montserrat,sans-serif;letter-spacing:.12em;text-transform:uppercase}
+.split{display:grid;grid-template-columns:1fr 1fr;min-height:600px}.panel{padding:9vw 7vw}.visual{position:relative;overflow:hidden;background:linear-gradient(180deg,#d8c2a5,#f0dfc9 48%,#9b8c75 49%,#6A7D68 100%)}.orb{width:110px;height:110px;border-radius:50%;background:#f5d89a;box-shadow:0 0 60px #f4d49a;position:absolute;left:50%;top:24%;transform:translateX(-50%)}.water-lines{position:absolute;left:0;right:0;bottom:0;height:50%;background:repeating-linear-gradient(175deg,transparent 0 13px,rgba(242,230,213,.18) 14px 15px)}
+.copy{display:flex;flex-direction:column;justify-content:center;background:var(--cream)}.eyebrow{font:600 10px Montserrat,sans-serif;letter-spacing:.18em;color:var(--gold)}h1,h2,h3{font-family:"Cormorant Garamond",serif;font-weight:400}h1{font-size:clamp(48px,6vw,76px);line-height:.95;color:var(--forest);margin:18px 0 28px}.copy p:not(.eyebrow){font-size:15px;line-height:1.8;max-width:580px}
+.philosophy{padding:110px 6vw;text-align:center}.philosophy h2,.services h2,.connect h2{font-size:clamp(44px,6vw,72px);line-height:.98;color:var(--forest);margin:20px 0 55px}.pillars{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}.pillars article{padding:20px 12px}.icon{width:64px;height:64px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;margin:auto;color:var(--gold);font-size:26px}.pillars h3{font-size:24px;color:var(--forest);margin:17px 0 8px}.pillars p{font-size:12px;line-height:1.65;color:#555}
+.services{background:var(--cream);padding:110px 7vw;display:grid;grid-template-columns:.85fr 1.15fr;gap:8vw}.services-intro p:not(.eyebrow){line-height:1.8;color:#555}.service-list{padding-top:20px}details{border-top:1px solid rgba(31,77,58,.25);padding:20px 0}details:last-child{border-bottom:1px solid rgba(31,77,58,.25)}summary{cursor:pointer;color:var(--forest);font:400 25px "Cormorant Garamond",serif}details p{font-size:13px;line-height:1.8;color:#555}.fine{grid-column:1/-1;font-size:10px;color:#666;line-height:1.6}
+.statement{background:var(--forest);color:var(--cream);padding:100px 20px;text-align:center}.statement .star{color:var(--gold);font-size:28px}.statement p{font:400 clamp(44px,7vw,80px) "Cormorant Garamond",serif;margin:20px}.statement span{font:500 10px Montserrat,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.connect{text-align:center;padding:120px 20px}.connect h2{margin-bottom:12px}.connect>p:not(.eyebrow){font:italic 24px "Cormorant Garamond",serif}.btn.cream{background:var(--forest)}.domain{margin-top:45px;font:500 10px Montserrat,sans-serif;letter-spacing:.2em;color:var(--gold)}
+footer{padding:28px 5vw;background:var(--forest);color:var(--cream);display:flex;justify-content:space-between;font:500 9px Montserrat,sans-serif;letter-spacing:.16em}
+@media(max-width:850px){nav{display:none}.header-logo img{width:165px}.split,.services{grid-template-columns:1fr}.visual{min-height:420px}.pillars{grid-template-columns:1fr 1fr}.pillars article:last-child{grid-column:1/-1}.services{gap:20px}.hero{min-height:650px}.hero-logo{width:min(500px,94vw)}footer{flex-direction:column;gap:10px;text-align:center}}
