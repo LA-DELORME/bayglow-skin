@@ -16,3 +16,7 @@ The public email address and Instagram handle have intentionally not been invent
 
 ## Domain
 After the GitHub Pages preview is approved, connect `bayglow.skin` as the repository's custom domain.
+
+
+## V1.1 logo correction
+Replaced the generic semicircle hero mark with a rising gold horizon/arc and star treatment based on the Bay Glow business-card identity. Copy otherwise remains unchanged for the next editorial pass.
