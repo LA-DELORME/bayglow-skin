@@ -1,11 +1,5 @@
-# Bay Glow Website V2
+# Bay Glow V3 — Approved Logo
 
-Built exclusively from the user-approved Bay Glow style and brand guide.
+This build uses the exact primary-logo image approved by the user from the supplied Bay Glow brand guide. The logo file is not redrawn, retyped, or recreated in CSS.
 
-## Brand source of truth
-- Primary logo artwork: extracted directly from the supplied brand guide, not redrawn
-- Palette: #1F4D3A, #6A7D68, #F2E6D5, #C7A46A, #B58F7E, #1C1C1C
-- Typography: Cormorant Garamond; Lato / Montserrat
-- Positioning: Whole-Person Skin Care / An Integrative Approach to Skin Health
-
-Upload `index.html`, `style.css`, and the `assets` folder to the root of the `bayglow-skin` GitHub repository.
+Upload `index.html`, `style.css`, and `assets/bay-glow-primary-logo.png` to the `bayglow-skin` repository.
